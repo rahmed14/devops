@@ -252,21 +252,7 @@
                         </configuration>
                     </plugin>
 		     
-		    <plugin>
-      		       <groupId>org.sonarsource.scanner.maven</groupId>
-                       <artifactId>sonar-maven-plugin</artifactId>
-                       <version>3.6.0.1398</version>
-		       <configuration>
-                            <targetJdk>1.8</targetJdk>
-                            <aggregate>true</aggregate>
-                            <format>xml</format>
-                            <!-- CPD options -->
-                            <minimumTokens>20</minimumTokens>
-                            <!--<ignoreIdentifiers>true</ignoreIdentifiers>-->
-                            <failOnViolation>true</failOnViolation>
-                            <failurePriority>2</failurePriority>
-                        </configuration>    
-                    </plugin>
+		  
 
 
                     <!-- FINDBUGS -->
